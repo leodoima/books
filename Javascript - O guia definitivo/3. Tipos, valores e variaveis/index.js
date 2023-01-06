@@ -34,3 +34,13 @@ var phase = 'You\'re so beautiful, to me...';
 
 console.log(text);            
 console.log(phase);
+
+
+// Conversão explícita é quando se deixa evidente o tipo de conversão a ser realizada
+var number = Number("10");
+console.log(number + 10); // Caso não houvesse a conversão o resultado seria: 1010;
+
+
+var type = false;
+var result = String(type);
+console.log(result.toString());
